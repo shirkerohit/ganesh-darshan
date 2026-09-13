@@ -1,0 +1,65 @@
+name: Data Pipeline
+
+on:
+  pull_request:
+    paths:
+      - 'js/data/**'
+  push:
+    branches: [main]
+    paths:
+      - 'js/data/**'
+
+jobs:
+  validate:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Validate contributions
+        run: node scripts/data.mjs probe
+
+      - name: Check for core file edits
+        run: |
+          CHANGED_FILES=$(git diff --name-only origin/main...HEAD)
+          if echo "$CHANGED_FILES" | grep -qE '^js/data/core\.json$|^js/data/mandals\.js$'; then
+            echo "::error::You cannot edit core.json or mandals.js directly. Add a new file in js/data/contributions/ instead."
+            exit 1
+          fi
+
+  regen:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Regenerate data
+        run: node scripts/data.mjs build
+
+      - name: Commit regenerated files
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add -A
+            git commit -m "chore(data): regenerate mandals.js + SEO after contribution merge"
+            git push
+          else
+            echo "No changes to commit."
+          fi

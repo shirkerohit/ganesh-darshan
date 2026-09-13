@@ -134,6 +134,7 @@ body {
     opacity: 0.8;
     transform: scale(1);
   }
+
   100% {
     opacity: 0;
     transform: scale(1.9);
@@ -226,6 +227,7 @@ body {
 #categoryChips {
   scrollbar-width: none;
 }
+
 #categoryChips::-webkit-scrollbar {
   display: none;
 }
@@ -259,6 +261,7 @@ body {
     opacity: 0;
     transform: translate(-50%, 16px);
   }
+
   to {
     opacity: 1;
     transform: translate(-50%, 0);
@@ -270,6 +273,7 @@ body {
     opacity: 1;
     transform: translate(-50%, 0);
   }
+
   to {
     opacity: 0;
     transform: translate(-50%, 16px);
@@ -291,10 +295,32 @@ body {
   overflow: hidden;
 }
 
+.leaflet-bar a,
+.leaflet-control-zoom-in,
+.leaflet-control-zoom-out {
+  display: block;
+  width: 44px !important;
+  height: 44px !important;
+}
+
+.leaflet-control-zoom-in,
+.leaflet-control-zoom-out {
+  font: 700 26px/44px 'Poppins', ui-sans-serif, sans-serif !important;
+  text-indent: 0 !important;
+}
+
 .leaflet-control-zoom a {
-  border-radius: 0.5rem;
+  border-radius: 0;
   background: rgba(255, 255, 255, 0.92);
   color: #701515;
+}
+
+.leaflet-control-zoom a:first-child {
+  border-radius: 0.75rem 0.75rem 0 0;
+}
+
+.leaflet-control-zoom a:last-child {
+  border-radius: 0 0 0.75rem 0.75rem;
 }
 
 .leaflet-control-zoom a:hover {
@@ -315,10 +341,20 @@ body {
 }
 
 /* ---------------------------------------------------------------------------
-   8. RESPONSIVE SAFEGUARD — keep zoom controls below the header on mobile
---------------------------------------------------------------------------- */
-@media (max-width: 767px) {
-  .leaflet-top.leaflet-left {
-    top: 72px;
+   8. ZOOM POSITION — right side, below the locate / fit / share column
+   --------------------------------------------------------------------------- */
+.leaflet-top.leaflet-right .leaflet-control-zoom {
+  margin-top: 242px;
+  /* column ends at top-24 (96px) + 3 controls (148px) = 244; +8px gap below share; minus default 10px */
+  margin-right: 12px;
+  /* flush with right-3 controls column */
+}
+
+@media (min-width: 640px) {
+  .leaflet-top.leaflet-right .leaflet-control-zoom {
+    margin-top: 271px;
+    /* column ends at top-28 (112px) + 148px = 260; +8px gap; minus default 10px */
+    margin-right: 16px;
+    /* flush with sm:right-4 controls column */
   }
 }

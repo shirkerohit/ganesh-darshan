@@ -44,12 +44,14 @@
   // ------------------------------------------------------------------
   // Map
   // ------------------------------------------------------------------
-  var map = L.map('map', { zoomControl: true, worldCopyJump: false }).setView([19.08, 72.88], 12);
+  var map = L.map('map', { zoomControl: false, worldCopyJump: false }).setView([19.08, 72.88], 12);
 
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
     maxZoom: 19,
   }).addTo(map);
+
+  L.control.zoom({ position: 'topright' }).addTo(map);
 
   map.setMinZoom(10);
   map.setMaxBounds([[18.7, 72.5], [19.5, 73.3]]);
@@ -640,6 +642,51 @@
     if (trip.length > 9) toast('Google Maps route capped to 9 stops.');
     window.open(url, '_blank', 'noopener');
   });
+
+  document.getElementById('btnShare').addEventListener('click', function () {
+    var shareUrl = 'https://shirkerohit.github.io/ganapati-darshan/';
+    var shareData = {
+      title: 'Ganpati Darshan \u2014 Mumbai Ganesh Mandal Guide',
+      text: 'Top 38+ Ganesh mandals of Mumbai with darshan timings, aarti schedules & directions. Ganpati Bappa Morya!',
+      url: shareUrl,
+    };
+    if (navigator.share) {
+      navigator.share(shareData).catch(function (e) {
+        if (!e || e.name !== 'AbortError') copyShareLink(shareUrl);
+      });
+      return;
+    }
+    copyShareLink(shareUrl);
+  });
+
+  function copyShareLink(url) {
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(url).then(function () {
+        toast('Link copied \u2014 paste it anywhere!');
+      }).catch(function () {
+        legacyCopyShare(url);
+      });
+    } else {
+      legacyCopyShare(url);
+    }
+  }
+
+  function legacyCopyShare(text) {
+    var ta = document.createElement('textarea');
+    ta.value = text;
+    ta.setAttribute('readonly', '');
+    ta.style.position = 'fixed';
+    ta.style.left = '-9999px';
+    document.body.appendChild(ta);
+    ta.select();
+    try {
+      document.execCommand('copy');
+      toast('Link copied \u2014 paste it anywhere!');
+    } catch (e) {
+      window.prompt('Copy the Ganpati Darshan link:', text);
+    }
+    document.body.removeChild(ta);
+  }
 
   document.getElementById('btnTripClear').addEventListener('click', function () {
     trip = [];

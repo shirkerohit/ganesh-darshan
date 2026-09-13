@@ -1,0 +1,21 @@
+{
+  "name": "Ganpati Darshan - Mumbai Ganesh Mandal Guide",
+  "short_name": "Ganpati Darshan",
+  "description": "Interactive guide to the top Ganesh mandals of Mumbai & MMR with darshan timings, aarti schedules and directions.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fdf7ec",
+  "theme_color": "#701515",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

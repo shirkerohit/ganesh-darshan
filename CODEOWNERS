@@ -1,0 +1,5 @@
+# Require @shirkerohit approval for core data and pipeline files
+js/data/core.json @shirkerohit
+js/data/mandals.js @shirkerohit
+scripts/data.mjs @shirkerohit
+.github/workflows/data.yml @shirkerohit
