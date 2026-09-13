@@ -1,0 +1,948 @@
+window.MANDALS = [
+  {
+    "id": 1,
+    "name": "Lalbaugcha Raja",
+    "area": "Lalbaug, Central Mumbai",
+    "category": "Most Famous",
+    "established": 1934,
+    "lat": 18.99104447242979,
+    "lng": 72.83740099325375,
+    "approx": false,
+    "address": "50/6, Dinshaw Petit Rd, Shree Ganesh Nagar, Lal Baug, Parel, Mumbai, Maharashtra 400012",
+    "idol": "The signature Lalbaugcha Raja form is a majestic seated Ganesha with a slim, human-like body, a slight tilt of the face and a distinctive welcoming expression. The face and core posture have been retained across generations of Kambli family idol-making.",
+    "darshan": "5 AM – 11 PM (open 24 hours during the festival)",
+    "aarti": "Aartis ~7 AM, ~12 PM, ~7 PM and ~10 PM daily",
+    "tips": "Two queues run — Navasachi (wish line) and Mukh darshan. Go 3–5 AM or post-midnight to beat peak waits; alight at Lalbaug or Parel station.",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lalbaugcha_Raja.jpg?width=900",
+    "history": "The Lalbaugcha Raja Sarvajanik Ganeshotsav Mandal was founded in 1934 after Koli fishermen and traders in Lalbaug made a vow for a permanent market after the closure of the Peru Chawl market. The vow was associated with the installation of the idol on 12 September 1934. Madhusudan Kambli was commissioned to sculpt the idol from 1935, establishing the Kambli family's long association with the Raja.",
+    "highlights": [
+      {
+        "title": "Navasacha Ganpati",
+        "detail": "The idol is traditionally associated with fulfilment of devotees' vows, which is central to the Raja's identity."
+      },
+      {
+        "title": "Kambli family tradition",
+        "detail": "The Kambli family has sculpted the idol since 1935, and the distinctive facial design and royal seated form have remained recognizable."
+      },
+      {
+        "title": "2026: Prasad to Power",
+        "detail": "In 2026, the mandal and BMC are diverting wet prasad and food waste to biomethanation plants to generate renewable electricity for civic hospitals."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "GSB Seva Mandal",
+    "area": "King's Circle, Matunga (E)",
+    "category": "South Indian Traditional",
+    "established": 1955,
+    "lat": 19.029184780385176,
+    "lng": 72.85846185992725,
+    "approx": false,
+    "address": "65/11, R.A. Kidwai Marg, near SNDT Women's College, Matunga East, Mumbai, Maharashtra 400019",
+    "idol": "The Mahaganapati is made from natural Shadu clay, grass and naturally extracted water colours. The idol is prepared with a coconut that is ritually consecrated at the Kashi Math in Walkeshwar before it is placed in the idol, and the murti is richly adorned with gold and silver ornaments.",
+    "darshan": "6 AM – 11 PM (festival lasts only the first 5 days)",
+    "aarti": "Morning and evening; times vary",
+    "tips": "The mandal is known for its elaborate gold and silver ornaments. Nearest stations are Matunga or King's Circle.",
+    "image": "https://c.ndtvimg.com/2026-01/9a4a8b75_WhatsApp-Image-2025-08-28-at-14.55.40.jpeg",
+    "history": "GSB Seva Mandal was established in 1951 as a charitable organisation. Its public Ganeshotsav began in 1955 with a 14-inch idol and grew into the five-day Mahaganapati celebration held today at King's Circle. The mandal's rituals are conducted under the guidance of the Sri Kashi Math tradition.",
+    "highlights": [
+      {
+        "title": "Natural-clay Mahaganapati",
+        "detail": "The idol uses natural Shadu clay, grass and naturally extracted colours and is prepared at the mandal with a consecrated coconut."
+      },
+      {
+        "title": "Five-day Ganeshotsav",
+        "detail": "Unlike most large Mumbai mandals, GSB's Mahaganapati is immersed on the fifth day."
+      },
+      {
+        "title": "Vedic ritual tradition",
+        "detail": "The mandal is known for round-the-clock pooja, archana, seva and annadaan during the festival."
+      },
+      {
+        "title": "Gold and silver adornment",
+        "detail": "The idol is decorated with more than 60 kg of gold and silver ornaments, with quantities varying by year."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Mumbaicha Raja (Ganesh Galli)",
+    "area": "Ganesh Galli, Lalbaug",
+    "category": "Heritage & Oldest",
+    "established": 1928,
+    "lat": 18.993994388117574,
+    "lng": 72.83734564025201,
+    "approx": false,
+    "address": "Ganesh Galli, Chinchpokli, Lalbaug, Mumbai 400012",
+    "idol": "Ganesh Galli's Mumbaicha Raja is known for its large-scale murti and its annual presentation within a themed pandal. The mandal introduced the 22-foot idol tradition in 1977, making the scale of the murti one of its defining features.",
+    "darshan": "6 AM – 11 PM",
+    "aarti": "Morning and evening; times vary",
+    "tips": "One of the oldest and most prominent Lalbaug mandals. Early morning is generally less crowded.",
+    "image": "https://images.mid-day.com/images/images/2022/aug/MumbaiCha-Raja-3_d.jpg",
+    "history": "Lalbaug Sarvajanik Utsav Mandal was established in 1928 in Peru Chawl. As the local population grew, the festival moved to Tejukaya Mansion and then to Ganesh Galli in 1937-38. The celebration expanded to 11 days and became known as Mumbaicha Raja, one of Lalbaug's historic public Ganpatis.",
+    "highlights": [
+      {
+        "title": "22-foot idol tradition",
+        "detail": "The mandal introduced a 22-foot Ganpati in 1977, helping establish the giant-idol tradition associated with Ganesh Galli."
+      },
+      {
+        "title": "Annual themed pandal",
+        "detail": "The mandal is known for recreating major Indian temples, heritage sites and cultural settings around the idol."
+      },
+      {
+        "title": "1928 roots",
+        "detail": "Its public Ganeshotsav traces back to Lalbaug's mill-worker community and the social-unity tradition inspired by Lokmanya Tilak."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Andhericha Raja (Azad Nagar)",
+    "area": "Azad Nagar, Andheri West",
+    "category": "Suburban Favourite",
+    "established": 1966,
+    "lat": 19.12979157596359,
+    "lng": 72.83660260865774,
+    "approx": false,
+    "address": "Veera Desai Road, Azad Nagar, Andheri West, Mumbai 400053",
+    "idol": "Andhericha Raja is the Navasala Pavnara Ganpati, presented in a distinctive life-size-to-large seated form and associated with the mandal's wish-fulfilling tradition.",
+    "darshan": "6 AM – 12 AM during festival",
+    "aarti": "Morning and evening; times vary",
+    "tips": "Weekday mornings are generally better for shorter queues. Azad Nagar Metro is nearby.",
+    "image": "https://assets.gqindia.com/photos/66e02259d2194f46c742af68/master/w_1600%2Cc_limit/001.jpg",
+    "history": "Azad Nagar Sarvajanik Utsav Samiti began its Ganeshotsav in 1966 through workers of Golden Tobacco Company, Tata Special Steel and Excel Industries who had migrated from the Lalbaug-Parel belt to Andheri West. In 1975, after a devotee's wish was believed to have been fulfilled, the idol came to be known as Navasala Pavnara Ganpati and later became popularly known as Andhericha Raja.",
+    "highlights": [
+      {
+        "title": "Navasala Pavnara Ganpati",
+        "detail": "The mandal's defining devotional identity is the belief that the Raja fulfils devotees' vows and wishes."
+      },
+      {
+        "title": "Sankashti Chaturthi visarjan",
+        "detail": "Unlike most major mandals, the idol's immersion is traditionally associated with Sankashti Chaturthi, several days after Anant Chaturdashi."
+      },
+      {
+        "title": "Mill-worker roots",
+        "detail": "The mandal was founded by workers who had moved from the old Lalbaug-Parel mill district to Andheri."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Khetwadicha Ganraj",
+    "area": "12th Lane, Khetwadi, Girgaon",
+    "category": "Biggest Idol",
+    "established": 1952,
+    "lat": 18.95601,
+    "lng": 72.81898,
+    "approx": true,
+    "address": "12th Lane, Khetwadi, Girgaon, Mumbai 400004",
+    "idol": "Khetwadicha Ganraj is renowned for towering idols that appear in different mythological forms. The mandal became especially famous for the 40-foot Parashuram-avatar idol installed in 2000, then widely reported as the tallest Ganesh idol of the festival.",
+    "darshan": "6 AM – 11 PM",
+    "aarti": "Morning and evening; times vary",
+    "tips": "Best visited during daylight or early evening. Charni Road and Grant Road are the nearest major stations.",
+    "image": "",
+    "history": "The mandal's current official website traces the Khetwadi Cha Ganraj tradition to 1952. The 12th Khetwadi mandal later became known for its large idols; the celebrated 40-foot Parashuram-avatar Ganesh of 2000 established its reputation for giant murtis. Contemporary city reporting also places the beginning of the tall-idol tradition in the 1980s.",
+    "highlights": [
+      {
+        "title": "40-foot Ganraj of 2000",
+        "detail": "The 2000 Parashuram-avatar idol reached 40 feet and became a landmark in Mumbai's giant-idol history."
+      },
+      {
+        "title": "Changing mythological avatars",
+        "detail": "The idol is presented in a different mythological form in different years, making the annual first look part of the attraction."
+      },
+      {
+        "title": "12th Khetwadi Lane",
+        "detail": "The mandal is the best-known Ganpati of the dense Khetwadi festival cluster in Girgaon."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Girgaoncha Raja",
+    "area": "Nikadwari Lane, Girgaon",
+    "category": "Heritage & Oldest",
+    "established": 1928,
+    "lat": 18.95176,
+    "lng": 72.82274,
+    "approx": true,
+    "address": "Nikadwari Lane, Girgaon, Mumbai 400004",
+    "idol": "Girgaoncha Raja is presented as a tall, traditional Ganesh idol made from Shadu clay, with the characteristic Rajwadi pheta (royal turban) and a large, commanding seated form.",
+    "darshan": "6 AM – 11 PM",
+    "aarti": "Morning and evening; times vary",
+    "tips": "A popular Girgaon neighbourhood mandal. Mornings are generally calmer.",
+    "image": "",
+    "history": "Nikadwari Lane Sarvajanik Ganeshotsav Mandal was founded in 1928 and is one of South Mumbai's oldest surviving public Ganeshotsav organisations. It has continued the festival as a community, cultural and social institution while promoting Shadu-mati, eco-conscious Ganeshotsav.",
+    "highlights": [
+      {
+        "title": "Shadu-mati idol",
+        "detail": "The mandal is closely associated with natural Shadu-clay idols and eco-conscious Ganeshotsav."
+      },
+      {
+        "title": "Signature Rajwadi pheta",
+        "detail": "The royal-style turban is a recurring visual feature of Girgaoncha Raja."
+      },
+      {
+        "title": "99th year in 2026",
+        "detail": "The mandal entered its 99th year in 2026, underlining its long Girgaon heritage."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Parelcha Raja",
+    "area": "Nare Park Maidan, Parel",
+    "category": "Heritage & Oldest",
+    "established": 1947,
+    "lat": 19.0051,
+    "lng": 72.843,
+    "approx": true,
+    "address": "Nare Park Maidan, Parel, Mumbai 400012",
+    "idol": "Parelcha Raja is distinctive because the principal Ganesh idol is presented standing rather than seated. The towering murti has also been shown in different divine forms, and its crown is specially designed to fold during the immersion procession.",
+    "darshan": "6 AM – 11 PM",
+    "aarti": "Morning and evening; times vary",
+    "tips": "Can be combined with nearby Lalbaug and Parel mandals. Parel station is the nearest rail connection.",
+    "image": "https://i.pinimg.com/736x/77/c5/9e/77c59e8c48550cf0c4931f8e9bed0bf6.jpg?nii=t",
+    "history": "Parel Vibhag Sarvajanik Ganeshotsav Mandal began its Ganeshotsav in 1947, when residents and mill workers of Parel came together at Nare Park. The celebration became part of the social and cultural life of the old Girangaon mill district and has continued there for decades.",
+    "highlights": [
+      {
+        "title": "Standing Ganpati",
+        "detail": "Parelcha Raja traditionally stands, unlike the seated posture used by most of Mumbai's famous Ganpatis."
+      },
+      {
+        "title": "Folding crown",
+        "detail": "The towering idol's mukut is designed to fold so the Raja can pass beneath the lower Lalbaug Bridge on the way to immersion."
+      },
+      {
+        "title": "Mill-worker heritage",
+        "detail": "The mandal was founded in 1947 by ordinary Parel residents and mill workers at Nare Park."
+      },
+      {
+        "title": "Community work",
+        "detail": "The mandal has used Ganeshotsav for social initiatives including education support, blood donation and environmental activities."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Juhuicha Raja",
+    "area": "Juhu, Western Suburbs",
+    "category": "Suburban Favourite",
+    "established": 1969,
+    "lat": 19.1055,
+    "lng": 72.8275,
+    "approx": true,
+    "address": "Near Juhu Beach, Juhu, Mumbai 400049",
+    "idol": "Idol information is not available yet. We’re updating this soon.",
+    "darshan": "6 AM – 11 PM",
+    "aarti": "Morning and evening; times vary",
+    "tips": "Convenient to combine with Juhu Beach. Vile Parle and Andheri are the nearest major railway stations.",
+    "image": "",
+    "history": "History information is not available yet. We’re updating this soon."
+  },
+  {
+    "id": 9,
+    "name": "Thane Tembo (Tembicha Raja)",
+    "area": "Tembo, Thane",
+    "category": "City & Periphery",
+    "established": 1982,
+    "lat": 19.1986,
+    "lng": 72.9757,
+    "approx": true,
+    "address": "Tembo Gaon, near Tembo Lake, Thane West 400606",
+    "idol": "Idol information is not available yet. We’re updating this soon.",
+    "darshan": "6 AM – 11 PM",
+    "aarti": "Morning and evening; times vary",
+    "tips": "Expect heavy crowds during evenings and weekends. Thane station is the main rail connection.",
+    "image": "",
+    "history": "History information is not available yet. We’re updating this soon."
+  },
+  {
+    "id": 10,
+    "name": "Patil Putala Ganesh Mandal",
+    "area": "Ghodbunder Road, Thane West",
+    "category": "City & Periphery",
+    "established": 1992,
+    "lat": 19.2094,
+    "lng": 72.9558,
+    "approx": true,
+    "address": "Patil Putala, Ghodbunder Road, Thane West 400607",
+    "idol": "Idol information is not available yet. We’re updating this soon.",
+    "darshan": "6 AM – 11 PM",
+    "aarti": "Morning and evening; times vary",
+    "tips": "Best reached by road. Weekday visits are preferable to weekend evenings.",
+    "image": "",
+    "history": "History information is not available yet. We’re updating this soon."
+  },
+  {
+    "id": 11,
+    "name": "Kalyanicha Raja",
+    "area": "Rambaug, Kalyan",
+    "category": "City & Periphery",
+    "established": 1986,
+    "lat": 19.2441,
+    "lng": 73.1355,
+    "approx": true,
+    "address": "Rambaug, Station Road, Kalyan 421301",
+    "idol": "Idol information is not available yet. We’re updating this soon.",
+    "darshan": "6 AM – 11 PM",
+    "aarti": "Morning and evening; times vary",
+    "tips": "Kalyan station provides convenient Central line access.",
+    "image": "",
+    "history": "History information is not available yet. We’re updating this soon."
+  },
+  {
+    "id": 12,
+    "name": "Mulundicha Raja",
+    "area": "Mulund West, Eastern Suburbs",
+    "category": "Suburban Favourite",
+    "established": 1975,
+    "lat": 19.1656,
+    "lng": 72.95056,
+    "approx": true,
+    "address": "Near LBS Road, Mulund West, Mumbai 400080",
+    "idol": "Idol information is not available yet. We’re updating this soon.",
+    "darshan": "6 AM – 11 PM",
+    "aarti": "Morning and evening; times vary",
+    "tips": "Easy to combine with other Mulund and Thane mandals. Mulund station is the closest major rail link.",
+    "image": "https://pbs.twimg.com/media/F7AMYIHWQAA17ZO.jpg",
+    "history": "History information is not available yet. We’re updating this soon."
+  },
+  {
+    "id": 13,
+    "name": "Chinchpoklicha Chintamani",
+    "area": "Chinchpokli",
+    "category": "Heritage & Oldest",
+    "established": 1920,
+    "lat": 18.9927,
+    "lng": 72.8373,
+    "approx": true,
+    "address": "Dattaram Lad Marg, Chinchpokli, Mumbai 400012",
+    "idol": "Chinchpoklicha Chintamani is a large traditional Ganesh murti and is especially identified with the grand Aagman Sohala that marks the idol's arrival into Chinchpokli each year.",
+    "darshan": "6 AM – 11 PM",
+    "aarti": "Morning and evening; times vary",
+    "tips": "Conveniently located close to several Lalbaug and Parel mandals.",
+    "image": "https://files.prokerala.com/news/photos/imgs/1024/chinchpokli-s-chintamani-arrives-for-ganesh-1923593.jpg",
+    "history": "Chinchpokli Sarvajanik Utsav Mandal was founded in 1920 by local residents of the mill district, inspired by Lokmanya Tilak's public-festival ideal of social unity. The mandal describes its first idol as being installed in September 1920 and has continued a century-long programme of religious, social and educational activity.",
+    "highlights": [
+      {
+        "title": "Grand Aagman Sohala",
+        "detail": "The mandal's arrival procession is one of its defining public traditions and draws large crowds in the Lalbaug-Chinchpokli belt."
+      },
+      {
+        "title": "1920 mill-district roots",
+        "detail": "The mandal grew out of Chinchpokli's textile-mill community and public Ganeshotsav movement."
+      },
+      {
+        "title": "Social and educational work",
+        "detail": "The mandal has operated community services including health initiatives, study facilities, a library and student support."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Tejukayacha Raja",
+    "area": "Lalbaug",
+    "category": "Most Famous",
+    "established": 1967,
+    "lat": 18.994,
+    "lng": 72.835,
+    "approx": true,
+    "address": "Lalbaug, Mumbai 400012",
+    "idol": "Raja Tejukayacha is known for a large, highly finished murti and for its shift to biodegradable paper-based construction. Since 2019, the mandal has used a paper idol; the 2025 murti was about 22 feet tall and incorporated a warrior presentation.",
+    "darshan": "6 AM – 11 PM",
+    "aarti": "Morning and evening; times vary",
+    "tips": "Best visited as part of a Lalbaug walking circuit.",
+    "image": "https://click360.in/virtualtour/ganesh/tejukaya/panos/01-No_cube_equi.tiles/mobile_f.jpg",
+    "history": "Tejukaya Sarvajanik Ganeshotsav Mandal was established in 1967. The tradition of larger idols grew in the following decade, and the mandal later became a major Lalbaug destination. Since 2019 it has championed paper-based, eco-friendly idol making, continuing a long association with experimental murti craftsmanship.",
+    "highlights": [
+      {
+        "title": "Eco-friendly paper idol",
+        "detail": "The mandal has used paper idols since 2019; the first such idol was about 22 feet tall and weighed roughly two tonnes."
+      },
+      {
+        "title": "1967 heritage",
+        "detail": "Tejukayacha Raja is one of Lalbaug's long-running public Ganpatis and one of the area's three best-known large mandals."
+      },
+      {
+        "title": "Innovative murti making",
+        "detail": "The mandal's sculptors have experimented with paper and other biodegradable materials while retaining a large, traditional Ganpati form."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Fortcha Icchapurti Raja",
+    "area": "Fort",
+    "category": "City & Periphery",
+    "established": 1962,
+    "lat": 18.9335,
+    "lng": 72.836,
+    "approx": true,
+    "address": "Icchapurti Ganesh Chowk, Dr. Sunderlal Bahal Path, Fort, Mumbai 400001",
+    "idol": "Fortcha Raja, popularly called Icchapurti Ganpati, is presented as a large artistic Ganesh idol within a themed pandal whose design commonly draws from Indian history, architecture and culture.",
+    "darshan": "6 AM – 11 PM",
+    "aarti": "Morning and evening; times vary",
+    "tips": "Easy to combine with South Mumbai sightseeing.",
+    "image": "https://www.mumbailive.com/images/media/images/images_1536822335784_IMG_20180913_WA0016.jpg?bg=802a19&crop=1032%2C581%2C0%2C0&fit=fill&fm=webp&h=768&w=1368",
+    "history": "Fort Vibhag Sarvajanik Ganeshotsav Mandal has been celebrating Ganesh Chaturthi since 1962 in the Fort area of South Mumbai. The mandal's identity has remained tied to the heritage character of Fort and to elaborate artistic pandal presentations.",
+    "highlights": [
+      {
+        "title": "Icchapurti Ganpati",
+        "detail": "The Fort mandal is popularly known as Icchapurti Ganpati and is one of South Mumbai's established public Ganeshotsav destinations."
+      },
+      {
+        "title": "Heritage-inspired pandals",
+        "detail": "Its annual decorations draw on Indian history, architecture and cultural themes."
+      },
+      {
+        "title": "Fort location",
+        "detail": "The pandal sits within Mumbai's historic Fort precinct, making it a natural part of a South Mumbai heritage walk."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Colaba Cha Samrat",
+    "area": "Colaba",
+    "category": "City & Periphery",
+    "established": 1993,
+    "lat": 18.9145,
+    "lng": 72.823,
+    "approx": true,
+    "address": "2nd Pasta Lane, Shahid Bhagat Singh Road, Colaba, Mumbai 400005",
+    "idol": "Colaba Cha Samrat's 2026 murti is presented with striking dark Rudraksha beads, connecting the Ganpati's appearance to the symbolism associated with Lord Shiva. The presentation sits within a traditional public Ganeshotsav format.",
+    "darshan": "6 AM – 11 PM",
+    "aarti": "Morning and evening; times vary",
+    "tips": "Convenient to combine with Gateway of India and Colaba sightseeing.",
+    "image": "",
+    "history": "Colaba Cha Samrat is a relatively newer but now well-established South Mumbai public Ganpati. Current 2026 city reporting dates the mandal's celebrations to 1993 and identifies it among Colaba's longstanding neighbourhood Ganpatis.",
+    "highlights": [
+      {
+        "title": "2026 Rudraksha presentation",
+        "detail": "The 2026 idol is covered with dark Rudraksha beads, a distinctive feature that visually links Ganesha with the Shiva tradition."
+      },
+      {
+        "title": "1993 origin",
+        "detail": "The mandal has been welcoming devotees in Colaba since 1993."
+      },
+      {
+        "title": "Colaba heritage setting",
+        "detail": "The pandal is within walking distance of South Mumbai landmarks around Colaba and the Gateway precinct."
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Sahyadri Krida Mandal",
+    "area": "Chembur",
+    "category": "Suburban Favourite",
+    "established": 1977,
+    "lat": 19.0625,
+    "lng": 72.894,
+    "approx": true,
+    "address": "Chembur, Mumbai 400071",
+    "idol": "Sahyadri Krida Mandal's Ganaraya is known for large, carefully sculpted murtis and major artistic pandal sets. In 2026, the Ganaraya is associated with sculptor Babi Bandekar and the Bandekar family workshop.",
+    "darshan": "6 AM – 11 PM",
+    "aarti": "Morning and evening; times vary",
+    "tips": "Good eastern-suburb addition to a Mumbai Ganpati route.",
+    "image": "https://images.gujaratimidday.com/Image_GMD/images/2023/sep/12sahyadri.jpg",
+    "history": "Sahyadri Krida Mandal began as a small sports club in 1977 and started its public Ganeshotsav in Tilak Nagar, Chembur. In 1980 the celebration moved to a nearby municipal ground, after which its popularity grew. The mandal became known for creative decorative sets produced by prominent art directors and sculptors.",
+    "highlights": [
+      {
+        "title": "50th year in 2026",
+        "detail": "The 2026 Ganeshotsav marks fifty years of the mandal's public Ganesh tradition."
+      },
+      {
+        "title": "Creative set tradition",
+        "detail": "The mandal has repeatedly built large decorative sets around historical, cultural and contemporary themes."
+      },
+      {
+        "title": "Bandekar sculpting legacy",
+        "detail": "The 2026 Ganaraya is part of sculptor Babi Bandekar's long association with the mandal and the Chembur idol-making tradition."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Andheri Cha Morya",
+    "area": "Andheri East",
+    "category": "Suburban Favourite",
+    "established": 1990,
+    "lat": 19.119,
+    "lng": 72.847,
+    "approx": true,
+    "address": "Andheri East, Mumbai 400069",
+    "idol": "Andheri Cha Morya has been associated in public festival material with an eco-friendly paper murti; earlier public posts identify sculptor Digambar Dada Mayekar and describe the idol as a paper-based Ganpati.",
+    "darshan": "6 AM – 11 PM",
+    "aarti": "Morning and evening; times vary",
+    "tips": "Can be combined with Andhericha Raja and western-suburb mandals.",
+    "image": "",
+    "history": "The mandal's detailed founding history is not available yet. We’re updating this information soon.",
+    "highlights": [
+      {
+        "title": "Paper-idol tradition",
+        "detail": "Public mandal material has documented an eco-friendly paper idol for Andheri Cha Morya."
+      },
+      {
+        "title": "Andheri East Ganeshotsav",
+        "detail": "The mandal is an established local Ganeshotsav destination in the Andheri East area."
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Vile Parlecha Vighnesh",
+    "area": "Vile Parle East",
+    "category": "Suburban Favourite",
+    "established": 1980,
+    "lat": 19.098,
+    "lng": 72.847,
+    "approx": true,
+    "address": "Vile Parle East, Mumbai 400057",
+    "idol": "Idol information is not available yet. We’re updating this soon.",
+    "darshan": "6 AM – 11 PM",
+    "aarti": "Morning and evening; times vary",
+    "tips": "Vile Parle station provides convenient access.",
+    "image": "",
+    "history": "History information is not available yet. We’re updating this soon."
+  },
+  {
+    "id": 20,
+    "name": "Tulshiwadi Sarvajanik Ganeshotsav Mandal",
+    "area": "Tardeo",
+    "category": "City & Periphery",
+    "established": 1939,
+    "lat": 18.975,
+    "lng": 72.817,
+    "approx": true,
+    "address": "Tulshiwadi, Tardeo, Mumbai 400034",
+    "idol": "Tulshiwadi Cha Maharaja is known for ambitious large-format idols and experimentation with unusual materials. In 2025 the mandal installed a 25-foot idol made entirely from tissue paper, designed by sculptor Rajesh Digambar Mayekar, as an eco-friendly statement.",
+    "darshan": "6 AM – 11 PM",
+    "aarti": "Morning and evening; times vary",
+    "tips": "Useful addition to a South Mumbai Ganpati circuit.",
+    "image": "",
+    "history": "Tulshiwadi Sarvajanik Ganeshotsav Mandal traces its public Ganeshotsav to 1939 in Tardeo. The mandal has maintained a long-running local celebration and has become known in recent years for combining large-scale visual presentations with eco-friendly idol experiments.",
+    "highlights": [
+      {
+        "title": "1939 legacy",
+        "detail": "The mandal has been celebrating Ganeshotsav in Tardeo since 1939."
+      },
+      {
+        "title": "25-foot tissue-paper idol",
+        "detail": "Its 2025 idol was built entirely from tissue paper, making the murti itself a major eco-innovation."
+      },
+      {
+        "title": "Experimental materials",
+        "detail": "The mandal has repeatedly used unusual artistic materials to make large idols while emphasizing environmental responsibility."
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Thanecha Raja",
+    "area": "Panch Pakhadi, Thane",
+    "category": "City & Periphery",
+    "established": 1979,
+    "lat": 19.1825,
+    "lng": 72.975,
+    "approx": true,
+    "address": "Panch Pakhadi, Thane West, Maharashtra",
+    "idol": "The Ganesh idol of Narveer Tanaji Sarvajanik Ganeshotsav Mitra Mandal is popularly known as Thanecha Raja. The mandal is known for large, detailed murtis and elaborate mythological presentations.",
+    "darshan": "6 AM – 11 PM",
+    "aarti": "Morning and evening; times vary",
+    "tips": "Convenient from Thane station and the eastern side of Thane.",
+    "image": "",
+    "history": "The better-documented 'Thanecha Raja' is the Narveer Tanaji Sarvajanik Ganeshotsav Mitra Mandal in Panch Pakhadi. It completed its 46th year in 2024, placing its beginning in 1979. In 2024 the mandal presented a Dashavatara of Vishnu-themed display and an idol sculpted by Kedar Ghade.",
+    "highlights": [
+      {
+        "title": "Thanecha Raja",
+        "detail": "The Narveer Tanaji mandal in Panch Pakhadi is popularly known by the title Thanecha Raja."
+      },
+      {
+        "title": "1979 origins",
+        "detail": "Its 46th Ganeshotsav in 2024 places the start of the public festival in 1979."
+      },
+      {
+        "title": "Mythological themes",
+        "detail": "The mandal is known for presenting large idols alongside detailed mythological narratives and cultural programmes."
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Castle Mill Mitra Mandal",
+    "area": "Castle Mill Naka",
+    "category": "City & Periphery",
+    "established": 1975,
+    "lat": 19.199,
+    "lng": 72.972,
+    "approx": true,
+    "address": "Castle Mill Naka, Thane West 400601",
+    "idol": "Idol information is not available yet. We’re updating this soon.",
+    "darshan": "6 AM – 11 PM",
+    "aarti": "Morning and evening; times vary",
+    "tips": "Can be combined with Naupada and central Thane mandals.",
+    "image": "",
+    "history": "History information is not available yet. We’re updating this soon."
+  },
+  {
+    "id": 23,
+    "name": "Naupada Sarvajanik Ganeshotsav Mandal",
+    "area": "Naupada",
+    "category": "City & Periphery",
+    "established": 1950,
+    "lat": 19.1955,
+    "lng": 72.9665,
+    "approx": true,
+    "address": "Naupada, Thane West 400602",
+    "idol": "Idol information is not available yet. We’re updating this soon.",
+    "darshan": "6 AM – 11 PM",
+    "aarti": "Morning and evening; times vary",
+    "tips": "Central Thane location with convenient road and rail access.",
+    "image": "",
+    "history": "History information is not available yet. We’re updating this soon."
+  },
+  {
+    "id": 24,
+    "name": "Kalwacha Raja",
+    "area": "Kalwa",
+    "category": "City & Periphery",
+    "established": 1980,
+    "lat": 19.2015,
+    "lng": 73.003,
+    "approx": true,
+    "address": "Kalwa Naka, Kalwa, Thane 400605",
+    "idol": "Idol information is not available yet. We’re updating this soon.",
+    "darshan": "6 AM – 11 PM",
+    "aarti": "Morning and evening; times vary",
+    "tips": "Good addition when extending the route east from Thane.",
+    "image": "",
+    "history": "History information is not available yet. We’re updating this soon."
+  },
+  {
+    "id": 25,
+    "name": "Vartak Nagar Sarvajanik Mandal",
+    "area": "Vartak Nagar",
+    "category": "City & Periphery",
+    "established": 1980,
+    "lat": 19.215,
+    "lng": 72.962,
+    "approx": true,
+    "address": "Vartak Nagar, Thane West 400606",
+    "idol": "Idol information is not available yet. We’re updating this soon.",
+    "darshan": "6 AM – 11 PM",
+    "aarti": "Morning and evening; times vary",
+    "tips": "Convenient to combine with other Thane West mandals.",
+    "image": "",
+    "history": "History information is not available yet. We’re updating this soon."
+  },
+  {
+    "id": 26,
+    "name": "Majiwada Cha Maharaja",
+    "area": "Majiwada",
+    "category": "City & Periphery",
+    "established": 1980,
+    "lat": 19.2185,
+    "lng": 72.975,
+    "approx": true,
+    "address": "Majiwada, Thane West 400601",
+    "idol": "Idol information is not available yet. We’re updating this soon.",
+    "darshan": "6 AM – 11 PM",
+    "aarti": "Morning and evening; times vary",
+    "tips": "Accessible from Eastern Express Highway and central Thane.",
+    "image": "",
+    "history": "History information is not available yet. We’re updating this soon."
+  },
+  {
+    "id": 27,
+    "name": "Talao Pali Sarvajanik Ganpati",
+    "area": "Talao Pali, Thane",
+    "category": "City & Periphery",
+    "established": 1970,
+    "lat": 19.1975,
+    "lng": 72.973,
+    "approx": true,
+    "address": "Masunda Lake / Talao Pali, Thane West 400601",
+    "idol": "Idol information is not available yet. We’re updating this soon.",
+    "darshan": "6 AM – 11 PM",
+    "aarti": "Morning and evening; times vary",
+    "tips": "A natural stop when exploring central Thane during Ganeshotsav.",
+    "image": "",
+    "history": "History information is not available yet. We’re updating this soon."
+  },
+  {
+    "id": 28,
+    "name": "Navi Mumbaicha Raja",
+    "area": "Turbhe, Sector 21",
+    "category": "City & Periphery",
+    "established": 1971,
+    "lat": 19.063,
+    "lng": 73.017,
+    "approx": true,
+    "address": "Near Turbhe Bus Depot, Turbhe, Navi Mumbai, Maharashtra",
+    "idol": "Navi Mumbaicha Raja is traditionally presented as a large public Ganesh idol and is closely associated with the Shivchhaya Mitra Mandal. The idol has been sculpted by artists including Santosh Kambli, linking it to the wider Mumbai idol-making tradition.",
+    "darshan": "6 AM – 11 PM",
+    "aarti": "Morning and evening; times vary",
+    "tips": "A strong choice when extending the route into Navi Mumbai.",
+    "image": "",
+    "history": "Shivchhaya Mitra Mandal was established in 1971 and became popularly known as Navi Mumbaicha Raja. It began near Turbhe Naka and later shifted near the Turbhe bus depot. Contemporary reporting describes it as Navi Mumbai's first public Ganesh mandal and notes its unusually large annual following.",
+    "highlights": [
+      {
+        "title": "Navi Mumbai's early public Ganpati tradition",
+        "detail": "The mandal dates to 1971, soon after the planned city of Navi Mumbai began to take shape."
+      },
+      {
+        "title": "Shivchhaya Mitra Mandal",
+        "detail": "Navi Mumbaicha Raja is the popular name of the Shivchhaya Mitra Mandal's public Ganeshotsav."
+      },
+      {
+        "title": "2025 Pandharpur theme",
+        "detail": "In 2025 the mandal recreated a Vitthal-Rukmini temple setting and introduced QR-based time-bound darshan management and dedicated lanes for women, seniors and differently-abled devotees."
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Juinagarcha Raja",
+    "area": "Sector 23, Juinagar",
+    "category": "City & Periphery",
+    "established": 2002,
+    "lat": 19.05166,
+    "lng": 73.01414,
+    "approx": false,
+    "address": "Sector 23, Juinagar, Navi Mumbai",
+    "idol": "Juinagarcha Raja is the principal public Ganpati of Jai Bhavani Mitra Mandal in Sector 23, Juinagar. The identity is rooted more in community participation and the annual Ganeshotsav than in a fixed sculptural pose or material tradition.",
+    "darshan": "6 AM – 11 PM",
+    "aarti": "Morning and evening; times vary",
+    "tips": "Conveniently accessible from Juinagar railway station.",
+    "image": "",
+    "history": "Jai Bhavani Mitra Mandal's Juinagarcha Raja was established in 2002 by residents of Juinagar who wanted to build unity in a rapidly developing neighbourhood. The organisers explicitly drew inspiration from Lokmanya Tilak's idea of using Ganeshotsav to bring people together.",
+    "highlights": [
+      {
+        "title": "Community-unity origin",
+        "detail": "The mandal was started in 2002 to bring Juinagar residents together and strengthen local community ties."
+      },
+      {
+        "title": "Sector 23 heritage",
+        "detail": "The mandal's own history places its origin in Sector 23, Juinagar."
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Belapurcha Raja",
+    "area": "CBD Belapur",
+    "category": "City & Periphery",
+    "established": 1983,
+    "lat": 19.018,
+    "lng": 73.039,
+    "approx": true,
+    "address": "Sector 2, CBD Belapur, Navi Mumbai, Maharashtra",
+    "idol": "Belapurcha Raja, popularly called CBD Cha Raja, is a large public Ganesh idol. A 2017 report documented a 14-foot murti and the mandal's strong emphasis on welcoming devotees across religious communities.",
+    "darshan": "6 AM – 11 PM",
+    "aarti": "Morning and evening; times vary",
+    "tips": "Belapur station provides convenient access.",
+    "image": "https://www.newsband.in/uploads/blog_main_img/7195b37800755a9a1bbae1b20abfd694_1.jpg",
+    "history": "The Sai Ekta Sarbajanik Ganesh Utsav Mitra Mandal in CBD Belapur began in 1983 under founder Anil Kundale. From the outset, residents of different communities were invited to participate, giving the festival a distinctive interfaith and neighbourhood-unity character.",
+    "highlights": [
+      {
+        "title": "Interfaith Ganeshotsav",
+        "detail": "The mandal is documented as attracting Hindu, Muslim, Christian, Sikh, Sindhi and other communities for darshan and participation."
+      },
+      {
+        "title": "CBD Cha Raja",
+        "detail": "The idol is popularly known as CBD Cha Raja in Navi Mumbai."
+      },
+      {
+        "title": "Community initiatives",
+        "detail": "The mandal has linked the festival with activities such as cleanliness campaigns, support for senior citizens and educational assistance."
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Airoli Cha Raja",
+    "area": "Airoli",
+    "category": "City & Periphery",
+    "established": 1985,
+    "lat": 19.158,
+    "lng": 72.998,
+    "approx": true,
+    "address": "Airoli, Navi Mumbai",
+    "idol": "Public 2025 material shows Airoli Cha Raja in a majestic seated form with a large crown and detailed ornaments. Because the idol's design changes by year, this description is treated as a documented recent presentation rather than a permanent form.",
+    "darshan": "6 AM – 11 PM",
+    "aarti": "Morning and evening; times vary",
+    "tips": "Useful northern Navi Mumbai stop when building a wider MMR route.",
+    "image": "",
+    "history": "Airoli Cha Raja is an established public Ganeshotsav attraction in Airoli, with recurring annual Aagman and darshan celebrations. A sufficiently authoritative founding history for the supplied 1985 date was not located in the sources reviewed, so that date is not treated as independently verified.",
+    "highlights": [
+      {
+        "title": "Annual Aagman celebration",
+        "detail": "The mandal's arrival procession is a recurring feature of the Airoli Ganeshotsav calendar."
+      },
+      {
+        "title": "Recent idol presentations",
+        "detail": "Recent festival coverage documents elaborate seated idols with large crowns, ornamentation and changing annual themes."
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Yuva Ganesh Utsav Mandal",
+    "area": "Sector 8, Vashi",
+    "category": "City & Periphery",
+    "established": 1983,
+    "lat": 19.075,
+    "lng": 73,
+    "approx": true,
+    "address": "Sector 8, Vashi, Navi Mumbai",
+    "idol": "Yuva Ganesh Utsav Mandal in Sector 8, Vashi is known for tall eco-friendly Ganesh idols made using traditional natural materials. The 2024 idol was about 13 feet high and used bamboo, hay, husk and alluvial clay from the Ganga basin.",
+    "darshan": "6 AM – 11 PM",
+    "aarti": "Morning and evening; times vary",
+    "tips": "Vashi station provides convenient rail access.",
+    "image": "https://www.newsband.in/uploads/blog_main_img/9f308f79412400fcc8cf988c1ba483ad_1.jpg",
+    "history": "The mandal celebrated its 42nd Ganeshotsav in 2024, placing its beginning in 1983. Its public identity combines Ganeshotsav with social messaging, health and blood-donation initiatives and a sustained preference for eco-friendly idols.",
+    "highlights": [
+      {
+        "title": "Eco-friendly since 2010",
+        "detail": "The mandal says it has used eco-friendly idols since 2010, before such practices became widespread among public celebrations."
+      },
+      {
+        "title": "42 years in 2024",
+        "detail": "The 2024 festival marked the 42nd year of the mandal's Ganeshotsav."
+      },
+      {
+        "title": "Social-message themes",
+        "detail": "Recent celebrations have focused on subjects such as women's safety, child education and social responsibility."
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Shivlalkar Ganesh Utsav Mitra Mandal",
+    "area": "Sector 15, Kopar Khairane",
+    "category": "City & Periphery",
+    "established": 1985,
+    "lat": 19.102,
+    "lng": 73.009,
+    "approx": true,
+    "address": "Sector 15, Kopar Khairane, Navi Mumbai",
+    "idol": "Idol information is not available yet. We’re updating this soon.",
+    "darshan": "6 AM – 11 PM",
+    "aarti": "Morning and evening; times vary",
+    "tips": "Kopar Khairane station is the closest major rail connection.",
+    "image": "",
+    "history": "History information is not available yet. We’re updating this soon."
+  },
+  {
+    "id": 34,
+    "name": "Shree Ganesh Mitra Mandal",
+    "area": "Sector 5, Ghansoli",
+    "category": "City & Periphery",
+    "established": 1985,
+    "lat": 19.119,
+    "lng": 73.014,
+    "approx": true,
+    "address": "Sector 5, Ghansoli, Navi Mumbai",
+    "idol": "Idol information is not available yet. We’re updating this soon.",
+    "darshan": "6 AM – 11 PM",
+    "aarti": "Morning and evening; times vary",
+    "tips": "Ghansoli station provides convenient access.",
+    "image": "",
+    "history": "History information is not available yet. We’re updating this soon."
+  },
+  {
+    "id": 35,
+    "name": "Kalyancha Raja",
+    "area": "Rambaug, Kalyan",
+    "category": "City & Periphery",
+    "established": 1986,
+    "lat": 19.2441,
+    "lng": 73.1355,
+    "approx": true,
+    "address": "Rambaug, Station Road, Kalyan 421301",
+    "idol": "Idol information is not available yet. We’re updating this soon.",
+    "darshan": "6 AM – 11 PM",
+    "aarti": "Morning and evening; times vary",
+    "tips": "Kalyan station provides Central line access.",
+    "image": "",
+    "history": "History information is not available yet. We’re updating this soon."
+  },
+  {
+    "id": 36,
+    "name": "Dombivli Cha Raja",
+    "area": "Dombivli East",
+    "category": "City & Periphery",
+    "established": 1985,
+    "lat": 19.2183,
+    "lng": 73.0867,
+    "approx": true,
+    "address": "Dombivli East, Maharashtra 421201",
+    "idol": "Idol information is not available yet. We’re updating this soon.",
+    "darshan": "6 AM – 11 PM",
+    "aarti": "Morning and evening; times vary",
+    "tips": "Dombivli station provides convenient Central line access.",
+    "image": "",
+    "history": "History information is not available yet. We’re updating this soon."
+  },
+  {
+    "id": 37,
+    "name": "Dombivli Sarvajanik Ganeshotsav Mandal",
+    "area": "Dombivli West",
+    "category": "City & Periphery",
+    "established": 1980,
+    "lat": 19.216,
+    "lng": 73.082,
+    "approx": true,
+    "address": "Dombivli West, Maharashtra 421202",
+    "idol": "The supplied broad 'Dombivli Sarvajanik Ganeshotsav Mandal' name could not be tied confidently to a single authoritative idol identity. The best-documented major Dombivli public mandal in the sources reviewed is the Tilak Nagar Sarvajanik Ganeshotsav Mandal, known for eco-friendly, DJ-free celebrations and large thematic presentations.",
+    "darshan": "6 AM – 11 PM",
+    "aarti": "Morning and evening; times vary",
+    "tips": "Best visited during morning or early evening.",
+    "image": "",
+    "history": "Dombivli's Tilak Nagar Sarvajanik Ganeshotsav Mandal is documented as a long-running public festival whose 2025 celebration marked its 76th year, implying origins around 1950. The mandal is notable for maintaining traditional, DJ-free celebrations, eco-friendly practices and social initiatives.",
+    "highlights": [
+      {
+        "title": "Tilak Nagar public Ganeshotsav",
+        "detail": "The best-documented major Dombivli mandal matching this broad entry is the Tilak Nagar Sarvajanik Ganeshotsav Mandal."
+      },
+      {
+        "title": "Long-running tradition",
+        "detail": "Its 2025 celebration was reported as the 76th year, placing its origin around 1950."
+      },
+      {
+        "title": "DJ-free and eco-conscious",
+        "detail": "Recent reporting highlights its traditional, DJ-free celebration style and environmental focus."
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Panvelcha Raja Chintamani",
+    "area": "New Panvel",
+    "category": "City & Periphery",
+    "established": 2011,
+    "lat": 18.9894,
+    "lng": 73.1175,
+    "approx": true,
+    "address": "Sector 4, New Panvel, Maharashtra",
+    "idol": "Panvelcha Raja Chintamani is a community Ganpati associated with Hari Om Samajik Mitra Mandal in New Panvel. Recent local coverage describes a large, decorated murti accompanied by a major Aagman celebration.",
+    "darshan": "6 AM – 11 PM",
+    "aarti": "Morning and evening; times vary",
+    "tips": "Useful southern MMR extension from Navi Mumbai.",
+    "image": "https://www.newsband.in/uploads/blog_main_img/27472e7368e470bc3030ba3f81770ac9_1.jpg",
+    "history": "Local Navi Mumbai coverage identifies Panvelcha Raja Chintamani as a New Panvel mandal started by Hari Om Samajik Mitra Mandal around 14 years before the 2025 season, placing its origin around 2011. It grew from a small neighbourhood celebration into a well-known Panvel Ganeshotsav destination.",
+    "highlights": [
+      {
+        "title": "New Panvel community mandal",
+        "detail": "The documented Panvelcha Raja Chintamani is associated with Hari Om Samajik Mitra Mandal in Sector 4, New Panvel."
+      },
+      {
+        "title": "Aagman Sohala",
+        "detail": "The mandal is known locally for its annual Ganpati arrival procession and first-look celebrations."
+      }
+    ]
+  }
+];
