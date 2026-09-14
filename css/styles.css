@@ -86,14 +86,39 @@ body {
   transform: scale(1.08);
 }
 
+.pin-active {
+  z-index: 1000 !important;
+  filter: drop-shadow(0 0 12px rgba(238, 99, 4, 0.8))
+    drop-shadow(0 6px 10px rgba(90, 40, 0, 0.45));
+}
+
+.pin-wrap:has(.pin-active) {
+  z-index: 1000 !important;
+}
+
 .pin-active .pin-body {
-  transform: scale(1.12);
-  box-shadow: 0 0 0 5px rgba(238, 99, 4, 0.25);
+  transform: scale(1.35);
+  border-color: #fff;
+  box-shadow:
+    0 0 0 5px rgba(255, 157, 69, 0.35),
+    0 0 18px 5px rgba(238, 99, 4, 0.55),
+    0 12px 24px rgba(90, 40, 0, 0.4);
+  animation: activeBob 1.2s ease-in-out infinite;
 }
 
 .pin-active .pin-ring {
+  top: 8px;
+  left: 8px;
+  width: 30px;
+  height: 30px;
+  border: 3px solid #ffd9ad;
   opacity: 1;
-  animation: ringPulse 1.6s ease-out infinite;
+  transform-origin: 50% 160%;
+  animation: ringPulse 1.15s ease-out infinite;
+}
+
+.pin-active .pin-tip {
+  border-top-color: #c54a06;
 }
 
 /* "Mark as visited" button — visited state */
@@ -131,13 +156,24 @@ body {
 
 @keyframes ringPulse {
   0% {
-    opacity: 0.8;
-    transform: scale(1);
+    opacity: 0.9;
+    transform: scale(0.8);
   }
 
   100% {
     opacity: 0;
-    transform: scale(1.9);
+    transform: scale(2.6);
+  }
+}
+
+@keyframes activeBob {
+  0%,
+  100% {
+    transform: scale(1.35) translateY(0);
+  }
+
+  50% {
+    transform: scale(1.35) translateY(-5px);
   }
 }
 

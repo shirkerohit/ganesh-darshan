@@ -37,6 +37,7 @@
   // Normalize the image field: string OR array of strings -> array.
   function imagesOf(m) {
     if (!m) return [];
+    if (Array.isArray(m.images)) return m.images.filter(Boolean);
     if (Array.isArray(m.image)) return m.image.filter(Boolean);
     return m.image ? [m.image] : [];
   }
@@ -70,6 +71,10 @@
   // ------------------------------------------------------------------
   function esc(str) {
     return String(str == null ? '' : str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+
+  function displaySite(url) {
+    return String(url == null ? '' : url).replace(/^https?:\/\//i, '').replace(/\/$/, '');
   }
 
   // ------------------------------------------------------------------
@@ -247,6 +252,7 @@
         '</div>';
       btn.addEventListener('click', function () {
         openDetails(m.id);
+        map.flyTo([m.lat, m.lng], 15, { duration: 0.8 });
         if (window.innerWidth < 1024) closeSidebar();
       });
       li.appendChild(btn);
@@ -330,6 +336,31 @@
     document.getElementById('detTips').textContent = m.tips || '';
     document.getElementById('detAddress').textContent = m.address || '';
 
+    var detVerified = document.getElementById('detVerified');
+    detVerified.textContent = m.verified ? '✓ Verified' : '';
+    detVerified.classList.toggle('hidden', !m.verified);
+
+    var detWebsite = document.getElementById('detWebsite');
+    var detWebsiteWrap = document.getElementById('detWebsiteWrap');
+    var hasSite = !!(m.website && m.website !== 'NA' && m.website !== '');
+    if (hasSite) {
+      detWebsite.href = m.website;
+      document.getElementById('detWebsiteText').textContent = displaySite(m.website);
+      detWebsiteWrap.classList.remove('hidden');
+    } else {
+      detWebsite.removeAttribute('href');
+      detWebsiteWrap.classList.add('hidden');
+    }
+
+    var detPhotoCredit = document.getElementById('detPhotoCredit');
+    var hasCredit = imagesOf(m).length && m['image-source'];
+    if (hasCredit) {
+      detPhotoCredit.textContent = 'Photo: ' + m['image-source'];
+      detPhotoCredit.classList.remove('hidden');
+    } else {
+      detPhotoCredit.classList.add('hidden');
+    }
+
     document.getElementById('detHistory').textContent = m.history || '';
     var hw = document.getElementById('detHistoryWrap');
     hw.classList.toggle('hidden', !(m.history && m.history.trim()));
@@ -379,7 +410,7 @@
   var gallery = [];
   mandals.forEach(function (m) {
     var imgs = imagesOf(m);
-    if (imgs.length) gallery.push({ id: m.id, name: m.name, area: m.area, images: imgs });
+    if (imgs.length) gallery.push({ id: m.id, name: m.name, area: m.area, images: imgs, imgSrc: m['image-source'] });
   });
   var galleryIndex = 0;
   var photoIndex = 0;
@@ -395,6 +426,7 @@
     lbEl('lbImg').src = g.images[photoIndex];
     lbEl('lbImg').alt = g.name;
     lbEl('lbCaption').textContent = g.name + ' · ' + g.area +
+      (g.imgSrc ? ' · Photo: ' + g.imgSrc : '') +
       (total > 1 ? ' (' + (photoIndex + 1) + '/' + total + ')' : '');
     var multi = total > 1;
     lbEl('lbPrev').classList.toggle('hidden', !multi);
